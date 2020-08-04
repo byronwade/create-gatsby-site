@@ -1,6 +1,6 @@
 {
   "name": "@byronwade/create-gatsby-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -11,7 +11,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "bin": {
-    "create-app": "index.js"
+    "create-gatsby-site": "index.js"
   },
   "devDependencies": {},
   "scripts": {
