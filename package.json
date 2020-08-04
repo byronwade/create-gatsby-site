@@ -1,13 +1,30 @@
 {
-  "name": "create-gatsby-site",
+  "name": "@byronwade/create-gatsby-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "colors": "^1.1.2",
+    "shelljs": "^0.7.8"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bin": {
+    "create-app": "index.js"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byronwade/create-gatsby-site.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byronwade/create-gatsby-site/issues"
+  },
+  "homepage": "https://github.com/byronwade/create-gatsby-site#readme"
 }
